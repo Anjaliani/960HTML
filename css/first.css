@@ -29,8 +29,6 @@ ul a:hover {
     width: 100%;
     height: 70%;
     margin-top: 2%;
-    margin-left: 0px;
-
     background-color: black;
 }
 
@@ -38,33 +36,37 @@ ul a:hover {
     width: 31%;
     height: 90%;
     margin: 10px;
-    float: left;
     text-align: center;
-
     background-color: white;
 }
 
 .container .left li {
     text-align: left;
     font-size: 20px;
-    font color: pink;
+}
+
+.left img {
+    height: 43%;
+    width: 80%;
 }
 
 .container .center {
     width: 31%;
     height: 90%;
     margin: 10px;
-    float: left;
     text-align: center;
     background-color: white;
 }
 
+.center img {
+    height: 43%;
+    width: 80%;
+}
 
 
 .container .center li {
     text-align: left;
     font-size: 20px;
-    font color: pink;
 }
 
 .container .right {
@@ -72,15 +74,19 @@ ul a:hover {
     height: 90%;
     margin: 10px;
     text-align: center;
-    float: right;
     background-color: white;
+}
+
+.right img {
+    height: 43%;
+    width: 80%;
 }
 
 .container .right li {
     text-align: left;
     font-size: 20px;
-    font color: pink;
 }
+
 
 .hero-image {
     background-image: url("../img/hero.jpg");
@@ -106,4 +112,9 @@ ul a:hover {
 .footer {
     background: grey;
     font-family: cursive;
+    margin-top: 2%;
+}
+
+.footer a {
+    width: 3.5%;
 }
